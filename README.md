@@ -19,6 +19,6 @@
 
 基本原理: 计算每个元素的上下基线，然后拖动的时候，判断被拖元素的中心是否在某个元素的上下基线之内，然后进行交换
 
-##2018.1.12 update
+## 2018.1.12 update
 
 update: reconsitution from study/dargList, use es6 module
