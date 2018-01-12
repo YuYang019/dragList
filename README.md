@@ -1,14 +1,14 @@
-# 列表拖拽
+# Draggable list
 
 ## usage
 
     new DragList(document.querySelector('.items'), {
-		dragStart: function(el) {
+			dragStart: function(el) {
 
-		},
-		dragEnd: function(el) {
+			},
+			dragEnd: function(el) {
 
-		}
+			}
     })
 
 ## [Demo](https://maoyuyang.github.io/dragList/dist/index.html)
@@ -17,6 +17,8 @@
 
 拖拽特效参考自[react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)，也是因为之前看到这个拖拽挺好看的，所以想着能不能自己实现一下。
 
-具体原理: 计算每个元素的上下基线，然后拖动的时候，判断被拖元素的中心是否在某个元素的上下基线之内，然后进行交换
+基本原理: 计算每个元素的上下基线，然后拖动的时候，判断被拖元素的中心是否在某个元素的上下基线之内，然后进行交换
 
-2018.1.12 update: 重构自study/dargList, 使用es6 module
+##2018.1.12 update
+
+update: reconsitution from study/dargList, use es6 module
